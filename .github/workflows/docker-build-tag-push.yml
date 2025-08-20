@@ -52,7 +52,6 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-EN
       # - name: Pull and run
       #   run: |
       #     docker stop nick || true
